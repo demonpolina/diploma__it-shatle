@@ -1,0 +1,42 @@
+/*common*/ 
+
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container
+{
+    width: 1170px;
+    margin: 0px auto;
+    position:relative;
+}
+
+.section
+{
+    &__title
+    {
+        @include font(700, 56px);
+        color:#333333;
+        font-family: Poppins;
+    }
+
+}
+
+.button
+{
+    @include font(600, 16px);
+    background-color: #C86DD7;
+    width: 170px;
+    height: 48px;
+    border-radius:24px;
+    color:white;
+    border:0;
+
+    &_yellow
+    {
+        background-color: #FFC300;
+        margin-top: 32px;
+    }
+}

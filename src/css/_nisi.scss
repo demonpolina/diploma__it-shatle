@@ -1,0 +1,84 @@
+.nisi
+{
+    padding-top: 173px;
+    padding-bottom: 240px;
+    background-color: #faf8e8;
+
+    &__text
+    {
+        width: 466px;
+    }
+
+    &__subtitle
+    {
+        @include font(700,16px);
+        font-family: Poppins;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+    }
+
+    &__descr
+    {
+        @include font (600,16px);
+        margin-top: 23px;
+        margin-bottom: 44px;
+    }
+
+    &__image
+    {
+        position:absolute;
+        background: rgb(48,35,174);
+        background: linear-gradient(202deg, rgba(48,35,174,1) 0%, rgba(200,109,215,1) 100%);
+        right:30px;
+        width: 570px;
+        height: 544px;
+        transform:translateY(-77%);
+        
+
+        &-img
+        {
+            position:absolute;
+            right:-30px;
+            top:-32px;
+            width: 570px;
+            height: 544px;
+        }
+        
+        &-text
+        {
+            position: absolute;
+            bottom:14.3%;
+            left:13.6%;
+        }
+        &-title
+        {
+            @include font(700, 24px);
+            font-family: Poppins;
+            color: white;
+        }
+
+        &-descr
+        {
+            @include descr();
+            color: white;
+            width: 474px;
+            margin-top: 9px;
+            margin-bottom: 16px;
+        }
+
+        &-person
+        {
+            display:flex;
+            align-items: center;
+        }
+
+        &-name
+        {
+            color:white;
+            @include font(600,16px);
+            margin-left: 20px;
+        }
+
+   
+    }
+}

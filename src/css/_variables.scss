@@ -1,0 +1,22 @@
+@mixin descr()
+{
+    font-weight: 400;
+    font-size: 16px;
+    color:#333333;
+    opacity: 49.8%;
+}
+
+@mixin font($fontWeight, $fontSize)
+{
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+}
+
+@mixin underline($height, $width)
+{
+    height: $height;
+    width: $width;
+    background-color: #C86DD7;
+    position: absolute;
+    z-index: -1;
+}

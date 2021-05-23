@@ -1,0 +1,99 @@
+.header
+{
+    background: rgb(48,35,174);
+    background: linear-gradient(202deg, rgba(48,35,174,1) 0%, rgba(200,109,215,1) 100%);
+    padding-top: 30px;
+    padding-bottom: 48px;
+
+    &__nav
+    {
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+
+        &-link
+        {
+            @include font(600, 16px);
+            color: #fff;
+            text-decoration: none;
+
+            &:hover
+            {
+                text-decoration: underline  2px solid rgba(0,0,0,0.2);;
+            }
+        }
+    }
+
+    &__logo
+    {
+        font-family: Poppins;
+        @include font(700, 40px);
+        color:#fff;
+        text-decoration: none;
+    }
+
+    &__row
+    {
+        align-self: center;
+        display:flex;
+        justify-content: space-between;
+        width: 414px;
+
+    }
+
+    &__img
+    {
+        margin-bottom: -165px;
+    }
+    
+    &__links
+    {
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+.main
+{
+    display:flex;
+    justify-content: space-between;
+
+    &__title
+    {
+        font-family: Poppins;
+        @include font(700, 72px);
+        color: #fff;
+        margin-bottom: 26px;
+        margin-top: 86px;
+    }
+
+    &__subtitle
+    {
+        @include font(600, 16px);
+        color:white;
+        width: 370px;
+        margin-bottom: 2px;
+    }
+
+    &__footer
+    {
+        position: relative;
+    }
+}
+
+.button
+{
+    &__nav
+    {
+        background-color: transparent;
+        color:white;
+        border: 1px solid rgba(255,255,255,29.51%);
+    }
+
+    &__main
+    {
+        background-color: #FFC300;
+        margin-top: 34px;
+    }
+}

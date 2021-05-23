@@ -1,0 +1,73 @@
+.quo
+{
+    margin-top: 71px;
+    margin-bottom: 80px;
+    text-align: center;
+
+    &__descr
+    {
+        @include font(600, 16px);
+        color: #333333;
+        width: 570px;
+        margin: 23px auto 32px auto;
+    }
+
+    &__row
+    {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-upper
+        {
+            text-align: center;
+        }
+
+        &-wrapper
+        {
+           display: inline-block; 
+            position:relative;
+        }
+       
+
+        &-item
+        {
+           
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 32px;
+            width: 370px;
+            height: 224px;
+
+            &:hover
+            {
+                box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+
+                .quo__row_underline
+                {
+                    @include underline(8px,100%);
+                    bottom:3px;
+                }
+
+              
+            }
+        }
+
+        &-title
+        {
+            @include font(700, 24px);
+            color: #333333;
+            margin: 0;
+            display:inline-block;
+            z-index: 2;
+            position: relative;
+            font-family: Poppins;
+        }
+
+        &-descr
+        {
+            @include descr;
+            margin-right: 32px;
+            margin-left: 32px;
+        }
+    }
+}

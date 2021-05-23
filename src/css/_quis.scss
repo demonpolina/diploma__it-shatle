@@ -1,0 +1,93 @@
+.quis
+{
+    margin-top:141px;
+    margin-bottom: 186px;
+
+    &__text
+    {
+        width: 50%;
+
+        &-up
+        {
+            font-family: Poppins;
+            @include font(700, 16px);
+            margin-top: 45px;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__list
+    {
+        margin-top: 39px;
+        width: 470px;
+        
+        &-text
+        {
+          
+            display:flex;
+            margin-bottom: 8px;
+            margin-top: 16px;  
+            position:relative;        
+        }
+
+        &-title
+        {
+            @include font(600, 16px);
+            color: #333333;
+            margin-right: 8px;
+
+            &_underline
+            {
+                @include underline(8px,161px);
+                bottom: 1px;
+            }
+        }
+
+     
+
+        &-marker
+        {
+            width: 10px;
+            height: 6px;
+            align-self: center;
+
+            &_open
+            {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    &__descr
+    {
+        @include descr;
+    }
+
+    &__video
+    {
+        width: 705px;
+        height: 544px;
+        position:absolute;
+        right:0%;
+        transform:translateY(-77%);
+        background: rgb(48,35,174);
+        background: linear-gradient(202deg, rgba(48,35,174,1) 0%, rgba(200,109,215,1) 100%);
+
+        &-img
+        {
+            position:absolute;
+            right:0%;
+            top:-32px;
+            width: 672px;
+            height: 544px;
+        }
+    }
+
+    &__play
+    {
+        position:absolute;
+        bottom:43%;
+        left:-5%;
+    }
+}

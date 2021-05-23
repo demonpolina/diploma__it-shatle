@@ -1,0 +1,68 @@
+.repell
+{
+    background-color: #3023AE;
+    position:relative;
+    z-index: 1;
+
+    &__content
+    {
+        display:flex;
+        padding-top: 160px;
+        padding-bottom: 212px;
+    }
+
+    &__team
+    {
+        margin-left: 69px;
+        margin-right: 200px;
+        width: 431px;
+        height: 396px;
+    }
+
+    &__title
+    {
+        color:white;
+        width: 359px;
+    }
+
+    &__subtitle
+    {
+        color: white;
+        @include font(700,16px);
+        font-family: Poppins;
+        text-transform: uppercase;
+        margin-top: 23px;
+    }
+
+    &__descr
+    {
+        color: white;
+        @include font(600,16px);
+        font-family: Poppins; 
+    }
+
+    &__oval
+    {       
+        &-up
+        {
+            top:-4%;
+            transform:translateX(350%);
+            position:absolute;
+        }
+
+        &-corner
+        {
+            position:absolute;
+            height: 201px;
+            bottom:0;
+        }        
+
+        &-center
+        {
+            transform: translateY(-100%);
+            left:45%;
+            position:absolute;
+        }
+    }
+}
+

@@ -1,0 +1,79 @@
+.ullam
+{
+    background-color: #F2F2F2;
+    padding-top: 61px;
+    padding-bottom: 48px;
+    
+    &__header
+    {
+        
+        &-title
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+        }
+    }
+
+    &__descr
+    {
+        @include descr;
+        width: 50%;
+    
+    }
+
+    &__subtitle
+    {
+        font-family: Poppins;
+        @include font(700, 16px);
+        margin-bottom: 18px;
+    }
+
+    &__nav
+    {
+        display:flex;
+        margin-top: 54px;
+        margin-bottom: 42px;
+        width: 45%;
+        justify-content: space-around;
+        padding-left: 0;
+
+        &-item
+        {
+           @include descr;
+           
+           &_active
+           {
+               font-weight: 600;
+               color:black;
+               opacity:100%;
+           }
+        }
+    }
+
+    &__row
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+
+        &-img
+        {
+            width: 370px;
+            height: 272px;
+
+            &:hover::before
+            {
+                display: block;
+                background-color: rgba(49,0,57,0.8);
+                //add text
+            }
+        }
+    }
+
+    &__button
+    {
+        display: block;
+        margin: 0px auto;
+    }
+}

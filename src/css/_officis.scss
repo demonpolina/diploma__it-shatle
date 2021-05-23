@@ -1,0 +1,72 @@
+.officis
+{
+    text-align: center;
+    margin-top: 71px;
+    margin-bottom: 95px;
+
+    &__descr
+    {
+        margin: 23px auto 64px auto;
+        @include font(600, 16px);
+        display:block;
+        width: 570px;
+    }
+
+    &__row
+    {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &-item
+        {
+            width: 370px;
+            padding: 32px;
+            text-align: left;
+
+            &:hover
+            {
+                box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+                border-radius: 3px;
+            }
+        }
+
+        &-descr
+        {
+            @include descr();
+            margin-top: 14px;
+            margin-bottom: 16px;
+        }
+
+        &-name
+        {
+            @include font(600,16px);
+            color: #333333;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__companies
+    {
+        display:flex;
+        justify-content: space-between;
+        margin-top: 95px;
+        flex-wrap: wrap;
+    }
+
+    &__company
+    {
+        &:hover
+        {
+            border-bottom: 2px solid rgba(0, 0, 0, 0.0994678);
+        }
+
+        &-logo
+        {
+            height: 34px;
+        }
+    }
+
+ 
+
+}
