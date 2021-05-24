@@ -170,16 +170,21 @@
 
         &__nav
         {
-            margin-top: 46px;
+            margin-top: 22px;
             width: 100%;
             flex-wrap: wrap;
             text-align: left;
             justify-content: stretch;
 
-            &-item:not(:last-child)
+            &-item
             {
-               margin-right: 9.25%;
-            
+                margin-top: 24px;
+
+                &:not(:last-child)
+                {
+                    margin-right: 9.25%;
+                }
+                
                 &_active
                 {
                     margin-right: 8.96%;
