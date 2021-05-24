@@ -1,0 +1,408 @@
+@media screen and (max-width: 375px)
+{
+    .container
+    {
+        margin-left: 14px;
+        margin-right: 15px;
+        width: 92%;
+
+        &__nav
+        {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    .section
+    {
+        &__title
+        {
+            font-size: 40px;
+        }
+    }
+
+    /*header*/
+
+    .header
+    {
+        padding-bottom: 32px;
+        padding-top: 0;
+
+        &__nav
+        {
+            background-color: #fff;
+            padding: 16px 14px 16px 15px;
+            margin: 0;
+        }
+
+        &__logo
+        {
+            color: black;
+            font-size: 24px;
+            padding: 0;
+        }
+
+        &__row
+        {
+            display:none;
+        }
+
+        &__list
+        {
+            display: block;
+            width: 20px;
+            height: 15px;
+            align-self: center;
+        }
+
+        &__img
+        {
+            margin-right: -58px;
+           margin-bottom: -127px;
+            margin-top: 16px;
+        }
+
+        &__links
+        {
+            left: 33%;
+        }
+    }
+
+    .main
+    {
+        display: block;
+
+        &__title
+        {
+            font-size: 56px;
+            margin: 23px auto;
+        }
+
+        &__subtitle
+        {
+            width: 100%;
+        }
+    }
+
+    .button__nav 
+    {
+        display:none;
+    }
+
+
+
+    /*quis*/
+
+    .quis
+    {
+        padding-top: 45px;
+        padding-bottom: 394px;
+        margin: auto;
+        position:relative;
+
+        &__text
+        {
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 17px;
+        }
+
+        &__list
+        {
+            width: 100%;
+            margin-top: 0;
+        }
+
+        &__descr
+        {
+            margin-top: 8px;
+            margin-bottom: 6px;
+        }
+
+        &list-title:not(:first-child)
+        {
+            margin-top: 24px;
+        }
+
+
+        &__video
+        {
+            width: 355px;
+            height: 272px;
+            transform:translateY(0%);
+            bottom:48px;
+
+            &-img
+            {
+                width: 339px;
+                height: 272px;
+            }
+        }
+
+        &__play
+        {
+            width: 58px;
+            left:43%;
+            bottom:50%;
+        }
+    }
+
+
+    /*ullam*/
+
+    .ullam
+    {
+        padding-top: 29px;
+        padding-bottom: 48px;
+
+        &__header
+        {
+            &-title
+            {
+                display:block;
+            }
+        }
+
+        &__descr
+        {
+            width: 100%;
+        }
+
+        &__nav
+        {
+            margin-top: 46px;
+            width: 100%;
+            flex-wrap: wrap;
+            text-align: left;
+            justify-content: stretch;
+
+            &-item:not(:last-child)
+            {
+               margin-right: 9.25%;
+            
+                &_active
+                {
+                    margin-right: 8.96%;
+                }
+            }
+        }
+
+        &__row
+        {
+            margin-bottom: 16px;
+
+            &-img
+            {
+                width: 100%;
+                margin-bottom: 18px;
+            }
+        }
+        
+    }
+
+    /*quo*/
+
+    .quo
+    {
+        padding-bottom: 34px;
+        padding-top: 38px;
+
+        &__descr
+        {
+            width: 100%;
+            margin: auto;
+            margin-top: 24px;
+            margin-bottom: 31px;
+        }
+
+        &__row
+        {
+            &-item
+            {
+                width: 100%;
+                height: 208px;
+                padding-top: 23px;
+                padding-bottom: 30px;
+                margin-top: 3px;
+            }
+        }
+    }
+
+
+    /*repell*/
+
+    .repell
+    {
+        &__content
+        {
+            display:block;
+            padding-top: 87px;
+            padding-bottom: 80px;
+        }
+
+        &__team
+        {
+            width: 100%;
+            margin: auto;
+            height: auto;
+            margin-bottom: 12px;
+        }
+
+        &__title
+        {
+            width: 100%;
+            margin-bottom: 24px;
+        }
+
+        &__descr
+        {
+            margin-bottom: -3px;
+        }
+
+        &__oval
+        {
+            &-up
+            {
+                transform: translateX(0%);
+                right: 0%;
+            }
+        }
+    }
+
+
+ /*officis*/
+
+    .officis
+    {
+        margin-top: 54px;
+        margin-bottom: 20px;
+   
+        &__descr
+        {
+            width: 100%;
+            margin-bottom: 32px;
+            margin-top: 24px;
+        }
+
+        &__row
+        {
+            &-item
+            {
+                width: 100%;
+                padding: 32px 30px 42px 30px;
+
+            }
+        }
+
+        &__companies
+        {
+            margin-top: 0;
+        }
+
+        &__company
+        {
+            width: 50%;
+            &-logo
+            {
+                height: auto;
+                margin-top: 33px;
+            }
+        }
+    }
+
+
+    /*nisi*/
+
+    .nisi
+    {
+        padding-top: 45px;
+        padding-bottom: 432px;
+
+        &__text
+        {
+            width: 100%;
+        }
+
+        &__subtitle
+        {
+            margin-bottom: 17px;
+        }
+
+        &__descr
+        {
+            margin-top: 24px;
+            margin-bottom: 29px;
+        }
+
+        &__image
+        {
+            width: 329px;
+            height: 316px;
+            right: 0;
+            transform:translateY(49px);
+
+            &-img
+            {
+                right: -17px;
+                top: -19px;
+                width: 329px;
+                height: 316px;
+            }
+
+            &-descr
+            {
+                width: 274px;
+                margin-bottom: 21px;
+            }
+
+        }
+    }
+
+    /*footer*/
+
+    .footer
+    {
+        padding-top: 70px;
+        padding-bottom: 58px;
+
+        &__text
+        {
+            padding-bottom: 64px;
+            margin-bottom: 21px;
+        }
+
+        &__descr
+        {
+            width: 92%;
+            margin-top: 24px auto 30px auto;
+        }
+
+        &__form
+        {
+            width: 100%;
+            margin-left: 14px;
+            flex-wrap: wrap;
+        }
+
+        &__mail
+        {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+
+        &__row
+        {
+            display:block;
+            &-item
+            {
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+
+        &__media
+        {
+            margin-top: 58px;
+        }
+    }
+}

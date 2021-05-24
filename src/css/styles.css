@@ -17,7 +17,7 @@ body {
 }
 
 .button {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   background-color: #C86DD7;
   width: 170px;
@@ -29,7 +29,7 @@ body {
 
 .button_yellow {
   background-color: #FFC300;
-  margin-top: 32px;
+  margin-top: 34px;
 }
 
 .header {
@@ -90,6 +90,10 @@ body {
   right: 0;
 }
 
+.header__list {
+  display: none;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,11 +130,6 @@ body {
   border: 1px solid white;
 }
 
-.button__main {
-  background-color: #FFC300;
-  margin-top: 34px;
-}
-
 .quis {
   margin-top: 141px;
   margin-bottom: 186px;
@@ -151,7 +150,7 @@ body {
 
 .quis__list {
   margin-top: 39px;
-  width: 470px;
+  width: 40.17%;
 }
 
 .quis__list-text {
@@ -289,6 +288,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 48px;
 }
 
@@ -317,7 +318,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   color: #333333;
-  width: 570px;
+  width: 48.7%;
   margin: 23px auto 32px auto;
 }
 
@@ -342,7 +343,7 @@ body {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 32px;
-  width: 370px;
+  width: 31.6%;
   height: 224px;
 }
 
@@ -397,13 +398,13 @@ body {
 .repell__team {
   margin-left: 69px;
   margin-right: 200px;
-  width: 431px;
+  width: 38.84%;
   height: 396px;
 }
 
 .repell__title {
   color: white;
-  width: 359px;
+  width: 30.68%;
 }
 
 .repell__subtitle {
@@ -453,7 +454,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   display: block;
-  width: 570px;
+  width: 48.7%;
 }
 
 .officis__row {
@@ -468,7 +469,7 @@ body {
 }
 
 .officis__row-item {
-  width: 370px;
+  width: 31.62%;
   padding: 32px;
   text-align: left;
 }
@@ -522,7 +523,7 @@ body {
 }
 
 .nisi__text {
-  width: 466px;
+  width: 39.83%;
 }
 
 .nisi__subtitle {
@@ -627,12 +628,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 570px;
+  width: 39.58%;
 }
 
 .footer__mail {
   padding-left: 16px;
   margin-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border: 1px solid #DADADA;
   border-radius: 3px;
   width: 370px;
@@ -651,7 +654,7 @@ body {
 }
 
 .footer__row-item {
-  width: 300px;
+  width: 25.64%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -696,4 +699,270 @@ body {
   font-size: 16px;
   color: #333333;
   opacity: 49.8%;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    margin-left: 14px;
+    margin-right: 15px;
+    width: 92%;
+  }
+  .container__nav {
+    margin: 0;
+    width: 100%;
+  }
+  .section__title {
+    font-size: 40px;
+  }
+  /*header*/
+  .header {
+    padding-bottom: 32px;
+    padding-top: 0;
+  }
+  .header__nav {
+    background-color: #fff;
+    padding: 16px 14px 16px 15px;
+    margin: 0;
+  }
+  .header__logo {
+    color: black;
+    font-size: 24px;
+    padding: 0;
+  }
+  .header__row {
+    display: none;
+  }
+  .header__list {
+    display: block;
+    width: 20px;
+    height: 15px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .header__img {
+    margin-right: -58px;
+    margin-bottom: -127px;
+    margin-top: 16px;
+  }
+  .header__links {
+    left: 33%;
+  }
+  .main {
+    display: block;
+  }
+  .main__title {
+    font-size: 56px;
+    margin: 23px auto;
+  }
+  .main__subtitle {
+    width: 100%;
+  }
+  .button__nav {
+    display: none;
+  }
+  /*quis*/
+  .quis {
+    padding-top: 45px;
+    padding-bottom: 394px;
+    margin: auto;
+    position: relative;
+  }
+  .quis__text {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 17px;
+  }
+  .quis__list {
+    width: 100%;
+    margin-top: 0;
+  }
+  .quis__descr {
+    margin-top: 8px;
+    margin-bottom: 6px;
+  }
+  .quislist-title:not(:first-child) {
+    margin-top: 24px;
+  }
+  .quis__video {
+    width: 355px;
+    height: 272px;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    bottom: 48px;
+  }
+  .quis__video-img {
+    width: 339px;
+    height: 272px;
+  }
+  .quis__play {
+    width: 58px;
+    left: 43%;
+    bottom: 50%;
+  }
+  /*ullam*/
+  .ullam {
+    padding-top: 29px;
+    padding-bottom: 48px;
+  }
+  .ullam__header-title {
+    display: block;
+  }
+  .ullam__descr {
+    width: 100%;
+  }
+  .ullam__nav {
+    margin-top: 46px;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+  .ullam__nav-item:not(:last-child) {
+    margin-right: 9.25%;
+  }
+  .ullam__nav-item:not(:last-child)_active {
+    margin-right: 8.96%;
+  }
+  .ullam__row {
+    margin-bottom: 16px;
+  }
+  .ullam__row-img {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  /*quo*/
+  .quo {
+    padding-bottom: 34px;
+    padding-top: 38px;
+  }
+  .quo__descr {
+    width: 100%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 31px;
+  }
+  .quo__row-item {
+    width: 100%;
+    height: 208px;
+    padding-top: 23px;
+    padding-bottom: 30px;
+    margin-top: 3px;
+  }
+  /*repell*/
+  .repell__content {
+    display: block;
+    padding-top: 87px;
+    padding-bottom: 80px;
+  }
+  .repell__team {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  .repell__title {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .repell__descr {
+    margin-bottom: -3px;
+  }
+  .repell__oval-up {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    right: 0%;
+  }
+  /*officis*/
+  .officis {
+    margin-top: 54px;
+    margin-bottom: 20px;
+  }
+  .officis__descr {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 24px;
+  }
+  .officis__row-item {
+    width: 100%;
+    padding: 32px 30px 42px 30px;
+  }
+  .officis__companies {
+    margin-top: 0;
+  }
+  .officis__company {
+    width: 50%;
+  }
+  .officis__company-logo {
+    height: auto;
+    margin-top: 33px;
+  }
+  /*nisi*/
+  .nisi {
+    padding-top: 45px;
+    padding-bottom: 432px;
+  }
+  .nisi__text {
+    width: 100%;
+  }
+  .nisi__subtitle {
+    margin-bottom: 17px;
+  }
+  .nisi__descr {
+    margin-top: 24px;
+    margin-bottom: 29px;
+  }
+  .nisi__image {
+    width: 329px;
+    height: 316px;
+    right: 0;
+    -webkit-transform: translateY(49px);
+            transform: translateY(49px);
+  }
+  .nisi__image-img {
+    right: -17px;
+    top: -19px;
+    width: 329px;
+    height: 316px;
+  }
+  .nisi__image-descr {
+    width: 274px;
+    margin-bottom: 21px;
+  }
+  /*footer*/
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 58px;
+  }
+  .footer__text {
+    padding-bottom: 64px;
+    margin-bottom: 21px;
+  }
+  .footer__descr {
+    width: 92%;
+    margin-top: 24px auto 30px auto;
+  }
+  .footer__form {
+    width: 100%;
+    margin-left: 14px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__mail {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .footer__row {
+    display: block;
+  }
+  .footer__row-item {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .footer__media {
+    margin-top: 58px;
+  }
 }

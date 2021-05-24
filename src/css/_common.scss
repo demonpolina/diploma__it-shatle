@@ -26,7 +26,7 @@ body
 
 .button
 {
-    @include font(600, 16px);
+    @include font(700, 16px);
     background-color: #C86DD7;
     width: 170px;
     height: 48px;
@@ -37,6 +37,6 @@ body
     &_yellow
     {
         background-color: #FFC300;
-        margin-top: 32px;
+        margin-top: 34px;
     }
 }

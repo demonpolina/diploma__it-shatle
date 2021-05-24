@@ -51,6 +51,11 @@
         position: absolute;
         right: 0;
     }
+
+    &__list
+    {
+        display: none;
+    }
 }
 
 
@@ -91,9 +96,4 @@
         border: 1px solid rgba(255,255,255,29.51%);
     }
 
-    &__main
-    {
-        background-color: #FFC300;
-        margin-top: 34px;
-    }
 }
