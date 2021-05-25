@@ -11,6 +11,13 @@ body
     width: 1170px;
     margin: 0px auto;
     position:relative;
+
+    &__nav
+    {
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    }
 }
 
 .section

@@ -7,10 +7,6 @@
 
     &__nav
     {
-        display:flex;
-        justify-content: space-between;
-        margin-bottom: 64px;
-
         &-link
         {
             @include font(600, 16px);
