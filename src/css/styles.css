@@ -293,6 +293,11 @@ body {
   margin-bottom: 48px;
 }
 
+.ullam__row-im {
+  width: 370px;
+  height: 272px;
+}
+
 .ullam__row-img {
   width: 370px;
   height: 272px;
@@ -307,14 +312,40 @@ body {
   width: 100%;
 }
 
+.ullam__row-img:hover .ullam__htext {
+  display: block;
+}
+
 .ullam__row-img:hover::before {
   display: block;
-  background-color: rgba(49, 0, 57, 0.8);
+  background-color: rgba(49, 0, 57, 0.6);
 }
 
 .ullam__button {
   display: block;
   margin: 0px auto;
+}
+
+.ullam__htext {
+  display: none;
+  position: absolute;
+  bottom: 26px;
+  left: 32px;
+}
+
+.ullam__htext-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 9px;
+}
+
+.ullam__htext-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+  opacity: 49.8%;
+  color: #ffffff;
 }
 
 .quo {
@@ -750,9 +781,9 @@ body {
         align-self: center;
   }
   .header__img {
-    margin-right: -58px;
     margin-bottom: -127px;
     margin-top: 16px;
+    margin-left: 5.333%;
   }
   .header__links {
     left: 33%;

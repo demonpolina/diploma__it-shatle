@@ -58,6 +58,12 @@
         flex-wrap: wrap;
         margin-bottom: 48px;
 
+        &-im
+        {
+            width: 370px;
+            height: 272px;
+        }
+
         &-img
         {
             width: 370px;
@@ -74,11 +80,19 @@
                 width: 100%;
             }
 
-            &:hover::before
+            &:hover
             {
-                display: block;
-                background-color: rgba(49,0,57,0.8);
-                //add text
+
+                .ullam__htext
+                {
+                    display: block;
+              
+                }
+                &::before
+                {
+                    display: block;
+                    background-color: rgba(49,0,57,0.6);
+                }
             }
         }
     }
@@ -87,5 +101,26 @@
     {
         display: block;
         margin: 0px auto;
+    }
+
+    &__htext
+    {    
+        display: none;
+        position:absolute;
+        bottom: 26px;
+        left: 32px;
+
+        &-title
+        {
+            @include font(700,24px);
+            color:white;
+            margin-bottom: 9px;
+        }
+
+        &-subtitle
+        {
+            @include descr();
+            color: #ffffff;
+        }
     }
 }
