@@ -296,6 +296,15 @@ body {
 .ullam__row-img {
   width: 370px;
   height: 272px;
+  position: relative;
+}
+
+.ullam__row-img::before {
+  content: ' ';
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
 }
 
 .ullam__row-img:hover::before {
